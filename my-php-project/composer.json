@@ -1,0 +1,17 @@
+{
+    "name": "yourname/project-name",
+    "autoload": {
+        "psr-4": {
+            "Yourname\\ProjectName\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kristina",
+            "email": "grigir7kristina@gmail.com"
+        }
+    ],
+    "require": {
+        "orhanerday/open-ai": "*"
+    }
+}
