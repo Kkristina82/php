@@ -1,0 +1,12 @@
+{* Шаблон сторінки About Me *}
+<h1>{$title}</h1>
+<p>Імʼя: {$name}</p>
+<p>Вік: {$age}</p>
+<p>Про себе: {$bio}</p>
+
+<h2>Хобі:</h2>
+<ul>
+{foreach $hobbies as $hobby}
+    <li>{$hobby}</li>
+{/foreach}
+</ul>
